@@ -1,0 +1,68 @@
+import type { Category } from "@/lib/types";
+
+export const categories: Category[] = [
+  {
+    id: "chicken",
+    slug: "chicken",
+    name: "Chicken",
+    tagline: "Tender, antibiotic free cuts",
+    image: "photo-1587593810167-a84920ea0781",
+    count: 24,
+  },
+  {
+    id: "mutton",
+    slug: "mutton",
+    name: "Mutton & Lamb",
+    tagline: "Rich, succulent and hand cut",
+    image: "photo-1615937657715-bc7b4b7962c1",
+    count: 16,
+  },
+  {
+    id: "fish",
+    slug: "fish",
+    name: "Fish & Seafood",
+    tagline: "Wild caught, ocean fresh",
+    image: "photo-1519708227418-c8fd9a32b7a2",
+    count: 30,
+  },
+  {
+    id: "prawns",
+    slug: "prawns",
+    name: "Prawns",
+    tagline: "Sweet, plump and deveined",
+    image: "photo-1565680018434-b513d5e5fd47",
+    count: 12,
+  },
+  {
+    id: "eggs",
+    slug: "eggs",
+    name: "Eggs",
+    tagline: "Laid fresh, delivered daily",
+    image: "photo-1518569656558-1f25e69d93d7",
+    count: 8,
+  },
+  {
+    id: "cold-cuts",
+    slug: "cold-cuts",
+    name: "Cold Cuts",
+    tagline: "Smoked, cured and sliced",
+    image: "photo-1529193591184-b1d58069ecdd",
+    count: 14,
+  },
+  {
+    id: "marinades",
+    slug: "marinades",
+    name: "Marinades & Kits",
+    tagline: "Ready to cook in minutes",
+    image: "photo-1589302168068-964664d93dc0",
+    count: 18,
+  },
+  {
+    id: "exotic",
+    slug: "exotic",
+    name: "Exotic Cuts",
+    tagline: "Chef specials and rare finds",
+    image: "photo-1544025162-d76694265947",
+    count: 9,
+  },
+];
